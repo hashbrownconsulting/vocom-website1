@@ -1,0 +1,6 @@
+// Placeholder for interactivity
+document.querySelectorAll('.btn.primary').forEach(btn => {
+  btn.addEventListener('click', () => {
+    alert('Feature coming soon!');
+  });
+});

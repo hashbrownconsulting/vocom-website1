@@ -3,76 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vocom</title>
+  <title>VocomAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="hero">
-    <nav class="nav">
-      <img src="assets/logo.png" alt="Vocom Logo" class="logo">
-      <ul class="nav-links">
-        <li><a href="#solutions">Solutions</a></li>
-        <li><a href="#features">Why Vocom</a></li>
-        <li><a href="#impact">Impact</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="btn primary">Book a Demo</button>
-    </nav>
-    <div class="hero-content">
-      <h1>More Productive Operations for Your Enterprise</h1>
-      <p>VocomAI helps enterprise teams take control of their time and workflows with seamless task management, AI-powered coaching, and predictive insights.﻿</p> :contentReference[oaicite:1]{index=1}
+  <!-- Logo only, centered -->
+  <div class="logo-wrap">
+    <a href="#" class="logo">
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="26" height="26" rx="6" fill="#b5294e"/>
+        <path d="M6.5 7.5l6.5 11 6.5-11" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+      VOCOM AI
+    </a>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>
+      More Productive<br>
+      Operations For Your<br>
+      Enterprise with
+      <span class="brand">VocomAI</span>
+    </h1>
+    <p class="subtitle">
+      VocomAI helps enterprise teams take control of their time and their workflows. Seamless task management, AI powered coaching, and predictive insights keep teams focused, productive, and confident.
+    </p>
+    <a href="#" class="btn">Book a Demo</a>
+
+    <!-- Animated fiber optic visual -->
+    <div class="hero-image">
+      <canvas id="fiberCanvas"></canvas>
     </div>
-  </header>
+  </div>
 
-  <!-- Solutions Section -->
-  <section id="solutions" class="section">
-    <h2>Our AI Solutions</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>VocomAI Coach Hub</h3>
-        <p>Always-on AI training that helps your team talk smarter and work happier with leadership simulations and skill building.﻿</p> :contentReference[oaicite:2]{index=2}
-      </div>
-      <div class="card">
-        <h3>VocomAI Data</h3>
-        <p>Enterprise intelligence that transforms global chaos into clarity with predictive insights and scenario planning.﻿</p> :contentReference[oaicite:3]{index=3}
-      </div>
-      <div class="card">
-        <h3>VocomAI Secure</h3>
-        <p>Protect operations at scale with AI security monitoring and threat detection across campuses and facilities.﻿</p> :contentReference[oaicite:4]{index=4}
-      </div>
+  <!-- Trusted -->
+  <div class="trusted">
+    <p>Adopted by renowned, trusted, and leading enterprises</p>
+    <div class="logo-strip">
+      <div class="logo-pill">TELECOM CO</div>
+      <div class="logo-pill">SCREENTELCOM</div>
+      <div class="logo-pill">CHINA UNICOM</div>
+      <div class="logo-pill">VOCOMLINK</div>
+      <div class="logo-pill">CHINA MOBILE</div>
     </div>
-  </section>
-
-  <!-- Why Choose Us -->
-  <section id="features" class="section dark">
-    <h2>Why Choose VocomAI?</h2>
-    <ul class="features-list">
-      <li>Enterprise AI Built for Speed, Scale, and Simplicity</li>
-      <li>Unified Intelligence Layer — Connect data, people, and processes.﻿</li> :contentReference[oaicite:5]{index=5}
-      <li>No-Code, Enterprise-Ready Platform</li>
-      <li>Real-Time Feedback and Faster Insights</li>
-    </ul>
-  </section>
-
-  <!-- Impact Highlights -->
-  <section id="impact" class="section">
-    <h2>Our Impact at a Glance</h2>
-    <p>Forecast accuracy improved by 50% and threat detection 90% faster with AI solutions deployed across industries.﻿</p> :contentReference[oaicite:6]{index=6}
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section dark">
-    <h2>Ready to Elevate Your AI Capabilities?</h2>
-    <p>Enterprise AI that simplifies complexity, drives measurable results, and integrates seamlessly with your systems.﻿</p> :contentReference[oaicite:7]{index=7}
-    <button class="btn primary">Contact Sales</button>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; 2026 VocomAI. All Rights Reserved.</p>
-  </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
